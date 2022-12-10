@@ -129,11 +129,11 @@
 #define LCD_PINS_ENABLE    17
 #define LCD_PINS_D4        16
 #define LCD_PINS_D5        21
-#define LCD_PINS_D6         5
+#define LCD_PINS_D6        5
 #define LCD_PINS_D7        36
 
 #if ENABLED(NEWPANEL)
-  #define BTN_EN1          42
-  #define BTN_EN2          40
+  #define BTN_EN1          40 //42
+  #define BTN_EN2          42 //40
   #define BTN_ENC          19
 #endif
